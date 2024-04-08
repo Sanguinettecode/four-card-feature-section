@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #4c4e61;
+  background-color: #fafafa;
+  width: 100%;
+  min-height: 100vh;
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: 0.1px;
+  color: #a3a5ae;
+  line-height: 1.5625rem;
+}
+
+h1, h2 {
+  letter-spacing: 0.17px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+header {
+  margin-top: 5.3125rem;
+  text-align: center;
+}
+header h2 {
+  margin-top: 1rem;
+}
+header p {
+  margin-top: 1rem;
+}
+
+.features {
+  margin-top: 4.6875rem;
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 25px;
+}
+.features .cyan {
+  border-top: 0.3125rem solid #45d3d3;
+}
+.features .orange {
+  border-top: 0.3125rem solid #fcaf4a;
+}
+.features .red {
+  border-top: 0.3125rem solid #ea5353;
+}
+.features .blue {
+  border-top: 0.3125rem solid #549ef2;
+}
+.features .card {
+  max-height: 13.875rem;
+  padding: 1.875rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.features .card p {
+  margin-top: 0.9375rem;
+  letter-spacing: 0.0056rem;
+  line-height: 1.4375rem;
+}
+.features .card picture {
+  margin-top: 2.375rem;
+  width: 100%;
+  display: block;
+  text-align: right;
+}
+.features .card picture img {
+  width: 3.5625rem;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    max-width: 540px;
+    margin-top: 3rem;
+  }
+  main {
+    padding: 0 180px;
+  }
+  .features {
+    margin-top: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    align-content: center;
+    align-items: center;
+  }
+  .features .cart {
+    max-width: 350;
+  }
+  .features .cyan {
+    grid-column: 1;
+    grid-row: 1/3;
+  }
+  .features .orange {
+    grid-column: 3;
+    grid-row: 1/3;
+  }
+}
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  text-align: center;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
